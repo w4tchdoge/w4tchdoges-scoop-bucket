@@ -1,16 +1,16 @@
 {
-    "version": "2025.12.11",
+    "version": "2025.12.12",
     "description": "Command-line program to download image-galleries and -collections from several image hosting sites.",
     "homepage": "https://github.com/gdl-org/builds",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gdl-org/builds/releases/download/2025.12.11/gallery-dl_windows.exe#/gallery-dl.exe",
-            "hash": "19525d37e3ae6e3fa72716502bdac20eba4bba0238af9acaa437b5e0625b8b73"
+            "url": "https://github.com/gdl-org/builds/releases/download/2025.12.12/gallery-dl_windows.exe#/gallery-dl.exe",
+            "hash": "cf05443a55d5ea976204318ad0ec318994ae48f5ab317127917b3a1814a73142"
         },
         "32bit": {
-            "url": "https://github.com/gdl-org/builds/releases/download/2025.12.11/gallery-dl_windows_x86.exe#/gallery-dl.exe",
-            "hash": "302482ad3fe1895d44b4f31bc0ca6cac624447b672e894fd4814b4324e0a5f36"
+            "url": "https://github.com/gdl-org/builds/releases/download/2025.12.12/gallery-dl_windows_x86.exe#/gallery-dl.exe",
+            "hash": "8ce45536504898ef4e75ccf4c0d28a9cd08520078c4376b1043716a2c931de5e"
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\gallery-dl.conf\")) { Set-Content \"$dir\\gallery-dl.conf\" '{}' -Encoding Ascii | Out-Null }",
