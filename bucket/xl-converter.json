@@ -29,9 +29,7 @@
         "    Write-Host 'pre_install script ' -NoNewline",
         "}"
     ],
-    "persist": [
-        "_internal\\user_data"
-    ],
+    "persist": "_internal\\user_data",
     "checkver": {
         "github": "https://github.com/JacobDev1/xl-converter"
     },
