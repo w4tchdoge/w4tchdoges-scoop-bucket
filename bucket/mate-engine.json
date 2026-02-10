@@ -1,0 +1,32 @@
+{
+    "version": "3.3.0",
+    "description": "A free Desktop Mate alternative with a lightweight interface and custom VRM support, though with more features.",
+    "homepage": "https://github.com/shinyflvre/Mate-Engine",
+    "license": "https://github.com/shinyflvre/Mate-Engine/blob/main/LICENSE.md",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shinyflvre/Mate-Engine/releases/download/Public-Release-X3.3.0/Public.Release.X3.3.0-HOTFIX-1.zip",
+            "hash": "be7f41f0882dba35afe46d508d20d6d73bc188dc5884d7a5287cf956287a360c"
+        }
+    },
+    "shortcuts": [
+        [
+            "MateEngineX.exe",
+            "MateEngine"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repositories/951665915/releases/latest",
+        "jsonpath": "$.assets..browser_download_url",
+        "regex": "releases/download/Public-Release-X(?<version>[\\d\\.]+)/(?<assetFilename>Public\\.Release\\.X.+\\.zip)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shinyflvre/Mate-Engine/releases/download/Public-Release-X$version/$matchAssetfilename"
+            }
+        }
+    },"notes":[
+        "User configuration and log files are stored at \"%USERPROFILE%\\AppData\\LocalLow\\Shinymoon\\MateEngineX\""
+    ]
+}
