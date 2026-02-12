@@ -1,12 +1,12 @@
 {
-    "version": "2.4.0",
+    "version": "2.4.1",
     "description": "The standalone desktop application for ReplayWeb.page, a viewer for web archives.",
     "homepage": "https://github.com/webrecorder/replayweb.page",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/webrecorder/replayweb.page/releases/download/v2.4.0/ReplayWeb.page-2.4.0.exe#/dl.7z",
-            "hash": "24fd6a6bcd942746a83a5a6359e28bf913d0503d6976e791dfba97a6f5c6dfe6",
+            "url": "https://github.com/webrecorder/replayweb.page/releases/download/v2.4.1/ReplayWeb.page-2.4.1.exe#/dl.7z",
+            "hash": "cc90379574ac5305503dbb1a112804688604022cedd65a061c5fc8d8c408b84f",
             "extract_dir": "$PLUGINSDIR",
             "pre_install": [
                 "Get-ChildItem -Path \"$dir\\*\" -Include '*.dll','*.bmp','app-32.7z' | Remove-Item",
@@ -15,8 +15,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/webrecorder/replayweb.page/releases/download/v2.4.0/ReplayWeb.page-2.4.0.exe#/dl.7z",
-            "hash": "24fd6a6bcd942746a83a5a6359e28bf913d0503d6976e791dfba97a6f5c6dfe6",
+            "url": "https://github.com/webrecorder/replayweb.page/releases/download/v2.4.1/ReplayWeb.page-2.4.1.exe#/dl.7z",
+            "hash": "cc90379574ac5305503dbb1a112804688604022cedd65a061c5fc8d8c408b84f",
             "extract_dir": "$PLUGINSDIR",
             "pre_install": [
                 "Get-ChildItem -Path \"$dir\\*\" -Include '*.dll','*.bmp','app-64.7z' | Remove-Item",
