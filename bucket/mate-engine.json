@@ -3,6 +3,7 @@
     "description": "A free Desktop Mate alternative with a lightweight interface and custom VRM support, though with more features.",
     "homepage": "https://github.com/shinyflvre/Mate-Engine",
     "license": "https://github.com/shinyflvre/Mate-Engine/blob/main/LICENSE.md",
+    "notes": "User configuration and log files are stored in \"%USERPROFILE%\\AppData\\LocalLow\\Shinymoon\\MateEngineX\", and are not persisted by Scoop.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/shinyflvre/Mate-Engine/releases/download/Public-Release-X3.3.0/Public.Release.X3.3.0-HOTFIX-1.zip",
@@ -26,7 +27,5 @@
                 "url": "https://github.com/shinyflvre/Mate-Engine/releases/download/Public-Release-X$version/$matchAssetfilename"
             }
         }
-    },"notes":[
-        "User configuration and log files are stored at \"%USERPROFILE%\\AppData\\LocalLow\\Shinymoon\\MateEngineX\""
-    ]
+    }
 }
