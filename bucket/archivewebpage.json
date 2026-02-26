@@ -9,7 +9,7 @@
             "hash": "bc9a8d5fa8ad991cf76ed031458163fd45c30b6bce9c5b82a49d97968ba8c2ff",
             "extract_dir": "$PLUGINSDIR",
             "pre_install": [
-                "Get-ChildItem -Path \"$dir\\*\" -Include '*.dll','*.bmp','app-32.7z' | Remove-Item",
+                "Get-ChildItem -Path \"$dir\\*\" -Exclude 'app-64.7z' | Remove-Item -Recurse",
                 "$apparchive = Get-ChildItem -Path $dir -Filter 'app*.7z' -File",
                 "Expand-7zipArchive $apparchive \"$dir\\app\" -Removal | Out-Null"
             ]
@@ -19,7 +19,7 @@
             "hash": "bc9a8d5fa8ad991cf76ed031458163fd45c30b6bce9c5b82a49d97968ba8c2ff",
             "extract_dir": "$PLUGINSDIR",
             "pre_install": [
-                "Get-ChildItem -Path \"$dir\\*\" -Include '*.dll','*.bmp','app-64.7z' | Remove-Item",
+                "Get-ChildItem -Path \"$dir\\*\" -Exclude 'app-32.7z' | Remove-Item -Recurse",
                 "$apparchive = Get-ChildItem -Path $dir -Filter 'app*.7z' -File",
                 "Expand-7zipArchive $apparchive \"$dir\\app\" -Removal | Out-Null"
             ]
