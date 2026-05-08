@@ -3,6 +3,9 @@
     "description": "A custom client designed to enhance your Discord experience while keeping everything lightweight.",
     "homepage": "https://legcord.app/",
     "license": "OSL-3.0",
+    "suggest": {
+        "Discord Overlay": "w4tchdoge/orbolay"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-win-x64.zip",
