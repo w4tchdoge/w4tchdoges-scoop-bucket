@@ -17,7 +17,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repositories/951665915/releases/latest",
+        "github": "https://api.github.com/repositories/951665915/releases/latest",
         "jsonpath": "$.assets..browser_download_url",
         "regex": "releases/download/Public-Release-X(?<version>[\\d\\.]+)/(?<assetFilename>Public\\.Release\\.X.+\\.zip)"
     },

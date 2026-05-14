@@ -19,7 +19,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repositories/170037836/releases",
+        "github": "https://api.github.com/repositories/170037836/releases",
         "jsonpath": "$[?(@.prerelease == false)].tag_name",
         "regex": "v(?<version>[\\d\\.]+(?:-alpha)?)"
     },
