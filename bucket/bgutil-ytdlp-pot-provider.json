@@ -1,15 +1,15 @@
 {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "homepage": "https://github.com/Brainicism/bgutil-ytdlp-pot-provider",
     "description": "A PO Token provider for yt-dlp.",
     "license": "GPL-3.0",
     "url": [
-        "https://github.com/Brainicism/bgutil-ytdlp-pot-provider/releases/download/2.0.1/bgutil-ytdlp-pot-provider.zip#/bgutil-ytdlp-pot-provider.zip.KEEP",
-        "https://github.com/Brainicism/bgutil-ytdlp-pot-provider/archive/refs/tags/2.0.1.zip"
+        "https://github.com/Brainicism/bgutil-ytdlp-pot-provider/releases/download/2.0.2/bgutil-ytdlp-pot-provider.zip#/bgutil-ytdlp-pot-provider.zip.KEEP",
+        "https://github.com/Brainicism/bgutil-ytdlp-pot-provider/archive/refs/tags/2.0.2.zip"
     ],
     "hash": [
-        "6fc9d757578949ba3cad2f561f57dfbc16142dbf8d485fe1bf9f0733f23bf9e3",
-        "0e92fc1905aa48d99145edcd640c06a737ea211ab33e5ceab75ee7dc3eca0cfe"
+        "a26b980bf6d8e8400d8f21445daa4d8381bf6183d20f0be309391f86b31e27ef",
+        "df68ee6210e4960757bceae298927fb2ebd4d5cd9d390f9ff3a8287b0d2d1054"
     ],
     "checkver": "github",
     "autoupdate": {
